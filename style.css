@@ -48,12 +48,14 @@ a{color:var(--teal);}
   gap:8px;
 }
 .wordmark{
-  font-family:'Fraunces', serif;
-  font-weight:600;
-  font-size:1.15rem;
-  letter-spacing:0.04em;
-  color:var(--ink);
+  display:flex;
+  align-items:center;
   text-decoration:none;
+}
+.logo-img{
+  height:34px;
+  width:auto;
+  display:block;
 }
 .section-tag{
   font-family:'IBM Plex Mono', monospace;
